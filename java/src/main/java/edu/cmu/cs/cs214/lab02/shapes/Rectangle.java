@@ -1,5 +1,9 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
+/**
+* Tegsh untsugtiin talbaig oloh.
+*/
+
 public class Rectangle implements Shape {
     public double height;
     public double width;
@@ -9,6 +13,7 @@ public class Rectangle implements Shape {
         this.width = width;
     }
 
+    @Override
     public double getArea() {
         return height * width;
     }
