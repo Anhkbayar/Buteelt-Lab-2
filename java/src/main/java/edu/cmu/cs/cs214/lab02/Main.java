@@ -3,6 +3,7 @@ package edu.cmu.cs.cs214.lab02;
 import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
 
 public class Main {
+
     /**
      * Main heseg.
      */

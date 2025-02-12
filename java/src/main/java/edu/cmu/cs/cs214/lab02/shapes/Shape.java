@@ -1,9 +1,13 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
 /**
-* Dursuudiin interface.
-*/
-
+ * Dursuudiin interface.
+ */
 public interface Shape {
-  public double getArea();
+
+    /**
+     *
+     * @return dursiin talbai.
+     */
+    double getArea();
 }
