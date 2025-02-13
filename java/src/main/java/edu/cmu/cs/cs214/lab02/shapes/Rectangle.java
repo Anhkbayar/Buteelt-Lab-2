@@ -22,8 +22,8 @@ public class Rectangle implements Shape {
      * @param width the width of the rectangle
      */
     public Rectangle(final double height, final double width) {
-        this.height = height;
-        this.width = width;
+        this.height = height;  // this.height нь ангийн гишүүн өгөгдлийг заана
+        this.width = width;    // this.width нь ангийн гишүүн өгөгдлийг заана
     }
 
     /**
