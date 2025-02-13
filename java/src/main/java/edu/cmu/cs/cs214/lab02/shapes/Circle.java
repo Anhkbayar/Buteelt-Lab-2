@@ -8,17 +8,12 @@ public class Circle implements Shape {
     /**
      * Duguin radius.
      */
-    private double radius;
-
-    public double getRadius() {
-        return radius;
-    }
+    private final double radius;
 
     /**
-     *
      * @param newradius radius.
      */
-    public Circle(double newradius) {
+    public Circle(final double newradius) {
         this.radius = newradius;
     }
 
