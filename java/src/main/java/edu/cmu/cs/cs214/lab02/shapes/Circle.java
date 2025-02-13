@@ -17,6 +17,9 @@ public class Circle implements Shape {
         this.radius = newradius;
     }
 
+    /**
+     * Duguin radiusiig avch talbaig oloh.
+     */
     @Override
     public double getArea() {
         return Math.PI * radius * radius;

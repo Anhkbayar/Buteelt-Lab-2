@@ -5,12 +5,10 @@ import edu.cmu.cs.cs214.lab02.shapes.Shape;
 public class Main {
 
     /**
-     * Main heseg.
+     * @param args heseg.
      */
-    private static void main(Final String[]
-    
-         args) {
-        
+    public static void main(final String[] args) {
+
         Shape rectangle = new Rectangle(2, 3);
         Shape square = new Square(5);
         Shape circle = new Circle(7);

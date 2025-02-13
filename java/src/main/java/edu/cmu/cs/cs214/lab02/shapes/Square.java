@@ -13,10 +13,10 @@ public class Square implements Shape {
     /**
      * Taliig avch obiektiig uusgene.
      *
-     * @param sideLen taliin urtiig avna.
+     * @param sideLength taliin urtiig avna.
      */
-    public Square(final double sideLen) {
-        this.sideLen = sideLen;
+    public Square(final double sideLength) {
+        this.sideLen = sideLength;
     }
 
     @Override

@@ -7,12 +7,21 @@ import edu.cmu.cs.cs214.lab02.shapes.Shape;
  */
 public class Renderer {
 
+    /**
+     * Shapeiin interfacees object uusgeh.
+     */
     private final Shape shape;
 
-    Renderer(Shape shape) {
-        this.shape = shape;
+    /**
+     * @param helber baiguulagchiin parameter.
+     */
+    Renderer(final Shape helber) {
+        this.shape = helber;
     }
 
+    /**
+     * oruulsan dursiin talbaig olood console deer hevleh.
+     */
     void draw() {
         double area = shape.getArea();
 

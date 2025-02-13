@@ -18,12 +18,12 @@ public class Rectangle implements Shape {
     /**
      * Constructs a Rectangle with specified height and width.
      *
-     * @param height the height of the rectangle
-     * @param width the width of the rectangle
+     * @param undur the height of the rectangle
+     * @param urgun the width of the rectangle
      */
-    public Rectangle(final double height, final double width) {
-        this.height = height;  // this.height нь ангийн гишүүн өгөгдлийг заана
-        this.width = width;    // this.width нь ангийн гишүүн өгөгдлийг заана
+    public Rectangle(final double undur, final double urgun) {
+        this.height = undur;  // this.height нь ангийн гишүүн өгөгдлийг заана
+        this.width = urgun;    // this.width нь ангийн гишүүн өгөгдлийг заана
     }
 
     /**
